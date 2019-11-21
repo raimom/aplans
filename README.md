@@ -59,6 +59,17 @@ This project uses two files for requirements. The workflow is as follows.
 `requirements.txt` is not edited manually, but is generated
 with `pip-compile`.
 
+## Attribution
+
+City of Helsinki would like to request that when this source code is forked and deployed to production use for another organization, the following phrases would be added to the FAQ or similar section of the user-visible UI, as well as to the public presentations or other materials presenting the new service:
+
+    [Name of the service] is an open-source service based on Helsinki Climate Watch, a service developed by the City of Helsinki. Helsinki Climate Watch has received funding from the European Union EIT Climate-KIC programme.
+
+Or in Finnish:
+
+    Palvelu on avointa lähdekoodia ja perustuu alun perin Helsingin kaupungin kehittämään Helsingin ilmastovahti -palveluun. Helsingin ilmastovahti on saanut tukea EU:n Climate-KIC-ohjelmasta.
+
+
 `requirements.txt` always contains fully tested, pinned versions
 of the requirements. `requirements.in` contains the primary, unpinned
 requirements of the project without their dependencies.
